@@ -1,0 +1,274 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.offcanvas-start {
+  width: 50%;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.headtitle {
+  font-family: 'Playfair Display', serif;
+}
+
+.navbar li {
+  font-family: 'Playfair Display', serif;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: transparent !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+#caseIphoneText {
+  display: grid;
+
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+
+.bg-full-dark {
+  background-color: black;
+}
+
+.customContainer {
+  height: 100vh;
+  width: 100%;
+  //overflow-y: scroll;
+  //scroll-snap-type: y proximity;
+}
+
+.id {
+  scroll-margin-top: 56px;
+  width: 100%;
+  //min-height: 100%;
+}
+
+:root {
+  @apply text-[12px] md:text-[14px] lg:text-base;
+}
+
+.items {
+  //scroll-snap-align: start;
+  @apply py-14;
+}
+
+#header {
+  background-image: url('/img/header.jpg');
+  background-position: 50% 85%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  .content {
+    width: 90%;
+    margin: 0 auto;
+
+    img {
+      cursor: pointer;
+    }
+  }
+
+  h1,
+  h2,
+  span {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+#why {
+  width: 75%;
+  margin: 0 auto;
+
+  .title {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .content {}
+}
+
+#about {
+  padding: 0 12.5%;
+
+  .title {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .content {}
+}
+
+
+#gallery {
+  .swiper-slide img {
+    @apply w-[400px] md:w-[300px];
+  }
+}
+
+#contact {
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+  line-height: 1.9;
+  color: #8c8c8c;
+
+  a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+  }
+
+  a,
+  a:hover {
+    text-decoration: none !important;
+  }
+
+  .text-black {
+    color: #000;
+  }
+
+  .content {
+    padding: 7rem 0;
+  }
+
+  .heading {
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+
+  .form-control {
+    border: none;
+    background: #f3f3f3;
+  }
+
+  .form-control:active,
+  .form-control:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #000;
+    background: #f3f3f3;
+  }
+
+  .col-form-label {
+    color: #000;
+  }
+
+  .btn,
+  .form-control,
+  .custom-select {
+    height: 50px;
+  }
+
+  .custom-select:active,
+  .custom-select:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #000;
+  }
+
+  .btn {
+    border: none;
+    border-radius: 4px !important;
+  }
+
+  .btn.btn-primary {
+    background: #000;
+    color: #fff;
+    padding: 15px 20px;
+  }
+
+  .btn:hover {
+    color: #fff;
+  }
+
+  .btn:active,
+  .btn:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .box {
+    padding: 40px;
+    background: #fff;
+    -webkit-box-shadow: -30px 30px 0px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: -30px 30px 0px 0 rgba(0, 0, 0, 0.08);
+  }
+
+  .box h3 {
+    font-size: 14px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  label.error {
+    font-size: 12px;
+    color: red;
+  }
+
+  #message {
+    resize: vertical;
+  }
+
+  #form-message-warning,
+  #form-message-success {
+    display: none;
+  }
+
+  .activate{
+    display: inline-block!important;
+  }
+
+  #form-message-warning {
+    color: #B90B0B;
+  }
+
+  #form-message-success {
+    color: #55A44E;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .form-group {
+    margin-bottom: 1rem!important;
+  }
+
+  .submitting {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    display: none;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000;
+  }
+
+}
+
+#usage{
+  img{
+    width: 90px;
+    padding: 15px 0;
+  }
+
+  .title{
+    @apply font-semibold text-lg mb-1;
+  }
+}

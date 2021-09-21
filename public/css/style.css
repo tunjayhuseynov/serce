@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.offcanvas-start {
+  width: 50%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.headtitle {
+  font-family: 'Playfair Display', serif;
+}
+
+.navbar li {
+  font-family: 'Playfair Display', serif;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: transparent !important;
+}
+
+.navbar-toggler:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+#caseIphoneText {
+  display: -ms-grid;
+  display: grid;
+}
+
+@media (max-width: 767px) {
+  #caseIphoneText {
+    display: none;
+  }
+}
+
+.bg-full-dark {
+  background-color: black;
+}
+
+.customContainer {
+  height: 100vh;
+  width: 100%;
+}
+
+.id {
+  scroll-margin-top: 56px;
+  width: 100%;
+}
+
+:root {
+  @apply text-[12px] md:text-[14px] lg:text-base;
+}
+
+.items {
+  @apply py-14;
+}
+
+#header {
+  background-image: url("/img/header.jpg");
+  background-position: 50% 85%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#header .content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#header .content img {
+  cursor: pointer;
+}
+
+#header h1,
+#header h2,
+#header span {
+  font-family: 'Playfair Display', serif;
+}
+
+#why {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#why .title {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#about {
+  padding: 0 12.5%;
+}
+
+#about .title {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#gallery .swiper-slide img {
+  @apply w-[400px] md:w-[300px];
+}
+
+#contact {
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+  line-height: 1.9;
+  color: #8c8c8c;
+}
+
+#contact a {
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease;
+}
+
+#contact a,
+#contact a:hover {
+  text-decoration: none !important;
+}
+
+#contact .text-black {
+  color: #000;
+}
+
+#contact .content {
+  padding: 7rem 0;
+}
+
+#contact .heading {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+#contact .form-control {
+  border: none;
+  background: #f3f3f3;
+}
+
+#contact .form-control:active,
+#contact .form-control:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: #000;
+  background: #f3f3f3;
+}
+
+#contact .col-form-label {
+  color: #000;
+}
+
+#contact .btn,
+#contact .form-control,
+#contact .custom-select {
+  height: 50px;
+}
+
+#contact .custom-select:active,
+#contact .custom-select:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: #000;
+}
+
+#contact .btn {
+  border: none;
+  border-radius: 4px !important;
+}
+
+#contact .btn.btn-primary {
+  background: #000;
+  color: #fff;
+  padding: 15px 20px;
+}
+
+#contact .btn:hover {
+  color: #fff;
+}
+
+#contact .btn:active,
+#contact .btn:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+#contact .box {
+  padding: 40px;
+  background: #fff;
+  -webkit-box-shadow: -30px 30px 0px 0 rgba(0, 0, 0, 0.08);
+  box-shadow: -30px 30px 0px 0 rgba(0, 0, 0, 0.08);
+}
+
+#contact .box h3 {
+  font-size: 14px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#contact label.error {
+  font-size: 12px;
+  color: red;
+}
+
+#contact #message {
+  resize: vertical;
+}
+
+#contact #form-message-warning,
+#contact #form-message-success {
+  display: none;
+}
+
+#contact .activate {
+  display: inline-block !important;
+}
+
+#contact #form-message-warning {
+  color: #B90B0B;
+}
+
+#contact #form-message-success {
+  color: #55A44E;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#contact .form-group {
+  margin-bottom: 1rem !important;
+}
+
+#contact .submitting {
+  float: left;
+  width: 100%;
+  padding: 10px 0;
+  display: none;
+  font-weight: bold;
+  font-size: 12px;
+  color: #000;
+}
+
+#usage img {
+  width: 90px;
+  padding: 15px 0;
+}
+
+#usage .title {
+  @apply font-semibold text-lg mb-1;
+}
+/*# sourceMappingURL=style.css.map */

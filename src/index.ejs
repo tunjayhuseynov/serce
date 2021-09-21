@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Serçe - Hər Yerdə Sizinlə</title>
+    <meta name="description" content="Serçe, Azərbaycanda istifadəyə verilmiş ilk skuter paylaşım xidmətidir">
+    <meta name="keywords" content="serçe, serce, skuter, scooter, bakı, martı, yol, taksi, taxi, bold">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="/img/sercelogo.ico" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/0c3951e1fd.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="/css/compiled.css">
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="80">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light px-3 fixed-top" style="transition: all .5s ease">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarToggler"
+                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="logotype hidden justify-content-lg-end w-[80px] justify-content-center">
+                <img src="img/sercemainwhite.svg">
+            </div>
+            <div class="offcanvas offcanvas-start flex-row" tabindex="-1" id="navbarToggler" aria-labelledby="Menu">
+                <div class="logotype hidden justify-content-lg-start w-[80px] justify-content-center">
+                    <img src="img/sercemainwhite.svg">
+                </div>
+                <ul
+                    class="nav-md nav-pills-md mt-5 mt-md-0 text-center navbar-nav justify-content-center justify-content-lg-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link text-2xl md:text-base" href="#header">Ana Səhfə</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-2xl md:text-base" href="#usage">İstifadə</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-2xl md:text-base" href="#why">Niyə Serçe?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-2xl md:text-base" href="#gallery">Qalleriya</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-2xl md:text-base" href="#about">Haqqımızda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-2xl md:text-base" href="#contact">Əlaqə</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="customContainer">
+        <div id="header" class="id" style="min-height: 100%">
+            <div class="items">
+                <div class="pt-[10%] content w-full flex flex-col gap-20 md:gap-16">
+                    <div class="text">
+                        <h1 class="text-5xl font-semibold">Serçe ilə</h1>
+                        <div class="flex flex-col lg:flex-row flex-nowrap lg:justify-between gap-12 lg:gap-0">
+                            <span class="flex-grow text-7xl font-semibold">Hər Yerdə</span>
+                            <%/* <span class="flex-grow text text-7xl font-semibold text-left lg:text-center">
+                                Tezliklə...
+                            */%>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col">
+                        <div><img class="w-[15rem] h-[5.8125rem]" src="img/googleplay.svg"></div>
+                        <div><img class="w-[15rem] h-[5.8125rem]" src="img/appstore.svg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="usage" class="id">
+            <div class="items grid grid-cols-1 gap-3 md:gap-0 md:grid-cols-4 border-b">
+                <div class="customCard"><div class="flex flex-col items-center justify-center">
+                    <div>
+                        <img src="img/4bar/mobiledownload.svg" alt="">
+                    </div>
+                    <div class="title">
+                        Serçe tətbiqini pulsuz yüklə
+                    </div>
+                    <div>
+                        Saniyələr içində qeydiyyatdan keç
+                    </div>
+                </div>
+            </div>
+                <div class="customCard"><div class="flex flex-col items-center justify-center">
+                    <div>
+                        <img src="img/4bar/mobilelocation.svg" alt="">
+                    </div>
+                    <div class="title">
+                        Ən yaxındakı Serçeni tap
+                    </div>
+                    <div>
+                        Xəritədə Serçeler səni gözləyir
+                    </div>
+                </div>
+            </div>
+                <div class="customCard"><div class="flex flex-col items-center justify-center">
+                    <div>
+                        <img src="img/4bar/unlock.svg" alt="">
+                    </div>
+                    <div class="title">
+                        QR Kodu tara və Kilidi aç
+                    </div>
+                    <div>
+                        Sürüşün keyfini çıxar
+                    </div>
+                </div>
+            </div>
+                <div class="customCard"><div class="flex flex-col items-center justify-center">
+                    <div>
+                        <img src="img/4bar/parking.svg" alt="">
+                    </div>
+                    <div class="title">
+                        Qaydalara uyğun park et
+                    </div>
+                    <div>
+                        Sürüşünü qurtar
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div id="why" class="id">
+            <div class="items">
+                <div class="flex flex-col gap-28">
+                    <div class="title text-center">
+                        <h2 class="text-4xl font-semibold headtitle">Niyə Serçe?</h2>
+                    </div>
+                    <div class="content grid grid-cols-1 gap-16">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                            <div class="justify-self-center flex flex-col items-center gap-3 self-center ">
+                                <div class="text-2xl font-semibold">
+                                    Hər Yerdə Əlçatan
+                                </div>
+                                <div>
+                                    <img class="h-[200px]" src="img/everywhere.svg">
+                                </div>
+                            </div>
+                            <div class="text-center flex items-center">Artıq skuter istifadə etmək üçün yol qət etməyin.
+                                Serçe tətbiqi sayəsində sizə ən yaxın skuterin yerini müəyyən edin və səyahətinizi
+                                başladın. Şəhərin 4 bir yanına yerləşdirilmiş skuterlərimiz istifadəniz üçün hazırdır.
+                            </div>
+                        </div>
+                        <div class="grid md:hidden grid-cols-1 md:grid-cols-2 gap-5">
+                            <div class="justify-self-center flex flex-col items-center self-center gap-3">
+                                <div class="text-2xl font-semibold">Kilid Yox</div>
+                                <div>
+                                    <img class="h-[200px]" src="img/lock.svg">
+                                </div>
+                            </div>
+                            <div class="text-center flex items-center">Sürüş bitdi? Artıq skuteri kilidləməyə ehtiyac
+                                yoxdur. Qaydalara uyğun tətbiq üzərindən səyahəti bitirdikdən sonra istədiyiniz zaman
+                                istədiyiniz yerdə istifadə etdiyiniz skuteri tərk edə bilərsiniz. Biz sizə güvənirik!
+                            </div>
+                        </div>
+                        <div id="caseIphoneText" class="md:grid md:grid-cols-2 md:gap-5">
+                            <div class="text-center flex items-center">Sürüş bitdi? Artıq skuteri kilidləməyə ehtiyac
+                                yoxdur. Qaydalara uyğun tətbiq üzərindən səyahəti bitirdikdən sonra istədiyiniz zaman
+                                istədiyiniz yerdə istifadə etdiyiniz skuteri tərk edə bilərsiniz. Biz sizə güvənirik!
+                            </div>
+                            <div class="justify-self-center flex flex-col items-center self-center gap-5">
+                                <div class="text-2xl font-semibold">Kilid Yox</div>
+                                <div>
+                                    <img class="h-[200px]" src="img/lock.svg">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                            <div class="justify-self-center flex flex-col items-center gap-3 self-center ">
+                                <div class="text-2xl font-semibold">
+                                    Qızıl Dəqiqə Sistemi
+                                </div>
+                                <div>
+                                    <img class="h-[200px]" src="img/time.svg">
+                                </div>
+                            </div>
+                            <div class="text-center flex items-center">Serçe ilə artıq minimum saat limiti yoxdur. Bizim
+                                skuterlərimizdən istədiyiniz qədər istifadə edə bilərsiniz.</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="gallery" style="scroll-margin-top: 56px;">
+            <div class="bg-black py-14">
+                <div class="flex flex-col gap-10 mx-10">
+                    <div class="title text-center">
+                        <h2 class="text-4xl font-semibold text-white headtitle">Qalleriya</h2>
+                    </div>
+                    <div>
+                        <div class="swiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <img
+                                        src="https://images.unsplash.com/photo-1565109254792-8856bba5abfb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img
+                                        src="https://images.unsplash.com/photo-1565109254792-8856bba5abfb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img
+                                        src="https://images.unsplash.com/photo-1565109254792-8856bba5abfb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img
+                                        src="https://images.unsplash.com/photo-1565109254792-8856bba5abfb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img
+                                        src="https://images.unsplash.com/photo-1565109254792-8856bba5abfb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80">
+                                </div>
+                            </div>
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination"></div>
+
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+
+                            <!-- If we need scrollbar -->
+                            <div class="swiper-scrollbar"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="about" class="id border-b">
+            <div class="items">
+                <div class="flex flex-col gap-28">
+                    <div class="title text-center">
+                        <h2 class="text-4xl font-semibold headtitle">Haqqımızda</h2>
+                    </div>
+                    <div class="content grid grid-cols-1 md:grid-cols-2 gap-5">
+                        <div class="justify-self-center flex flex-col gap-5">
+                            <img class="w-[200px] h-[100px]" src="img/sercemain.svg">
+                            <img class="w-[200px] h-[200px]" src="img/sercelogo.svg">
+                        </div>
+                        <div class="font-medium">
+                            <p class="mb-2"> Serçe, Azərbaycanda istifadəyə verilmiş ilk skuter paylaşım xidmətidir.</p>
+
+                            <p class="mb-2"> Nəqliyyat sektoruna tamamilə yeni bir perspektiv gətirmək üçün yola çıxan Serçe şəhər
+                                tıxacına praktik bir həll təqdim edir.</p>
+
+                            Şəhərdə daha asan və daha əyləncəli səyahət üçün Serçe ilə uçun.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contact">
+            <div class="content">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <div class="row justify-content-center">
+                                <div class="col-md-6">
+
+                                    <h3 class="heading mb-4 text-black ">Mesaj Yollayın...</h3>
+                                    <p>Bizə ünvanlamaq istədiyiniz  sual və ya şikayətiniz var?</p>
+
+                                    <p><img src="img/undraw-contact.svg" alt="Image" class="img-fluid"></p>
+
+
+                                </div>
+                                <div class="col-md-6">
+
+                                    <form class="mb-5" method="post" id="contactForm" name="contactForm" action="/message" enctype="application/x-www-form-urlencoded">
+                                        <div class="row">
+                                            <div class="col-md-12 form-group">
+                                                <input type="text" class="form-control" name="name" id="name"
+                                                    placeholder="Adınız" required>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12 form-group">
+                                                <input type="email" class="form-control" name="email" id="email"
+                                                    placeholder="E-Mail Adresiniz" required>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12 form-group">
+                                                <input type="text" class="form-control" name="subject" id="subject"
+                                                    placeholder="Başlıq" required>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12 form-group">
+                                                <textarea class="form-control h-auto" name="message" id="message"
+                                                    cols="30" rows="7" placeholder="Mesajınızı yazın" required></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <input type="submit" value="Göndər"
+                                                    class="btn btn-primary rounded-0 py-2 px-4">
+                                                <span class="submitting"></span>
+                                            </div>
+                                        </div>
+                                    </form>
+
+                                    <% if (error) { %>
+                                        <div id="form-message-warning" class="activate">
+                                            Xəta Baş Verdi!
+                                        </div>
+                                      <% } %>
+                                      <% if (success) { %>
+                                        <div id="form-message-success" class="activate">
+                                            Mesajınız Göndərildi, Təşəkkürlər!
+                                        </div>
+                                      <% } %>
+
+                                </div>
+                                <div class="offset-md-6 col-md-6">
+                                    <span><span class="font-medium">E-mail:</span> <span class="text-black">info@serce.az</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="text-center p-4 bg-black text-white" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2021 Müəlliflik hüququ:
+            <a class="text-reset text-white fw-bold" href="https://mdbootstrap.com/">Serce.az</a>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
+    <script type="module">
+        import Swiper from 'https://unpkg.com/swiper@7/swiper-bundle.esm.browser.min.js'
+      
+        const swiper = new Swiper('.swiper', {
+            // Default parameters
+            slidesPerView: 1,
+            centeredSlides: true,
+            initialSlide: 1,
+            spaceBetween: 10,
+            // Responsive breakpoints
+            breakpoints: {
+              // when window width is >= 320px
+              320: {
+                slidesPerView: 2,
+                spaceBetween: 20
+              },
+              // when window width is >= 480px
+              480: {
+                slidesPerView: 3,
+                spaceBetween: 30
+              },
+              // when window width is >= 640px
+              640: {
+                slidesPerView: 4,
+                spaceBetween: 40
+              }
+            }
+          });
+      </script>
+    <script src="/js/script.js" async defer></script>
+</body>
+
+</html>
